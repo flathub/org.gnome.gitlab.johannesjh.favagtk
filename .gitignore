@@ -1,4 +1,6 @@
+.flatpak-builder
 _build
 _repo
-.flatpak-builder
+/subprojects/blueprint-compiler
+/venv/
 *~
