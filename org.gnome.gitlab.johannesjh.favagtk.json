@@ -1,8 +1,7 @@
-/* release build of favagtk */
 {
   "app-id": "org.gnome.gitlab.johannesjh.favagtk",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "42",
+  "runtime-version": "43",
   "sdk": "org.gnome.Sdk",
   "command": "favagtk",
   "finish-args": [
@@ -25,22 +24,8 @@
     "*.a"
   ],
   "modules": [
-    /* shared module, a gtk4 compatible version of webkitgtk is required */
-    "requirements/webkitgtk.json",
-
-    /* blueprint compiler for .ui files */
     "requirements/blueprint-compiler.json",
-
-    /* machine learning libs, hand-written module because of tricky platform-specific packages */
-    "requirements/python3-scikit-learn.json",
-
-    /* main application dependencies for fava etc., generated using pip-compile and flatpak-pip-generator */
     "requirements/python3-main.json",
-
-    /* optional dependencies for fava plugins */
-    "requirements/python3-optional.json",
-
-    /* the actual favagtk application */
     {
       "name": "favagtk",
       "builddir": true,
@@ -49,8 +34,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/johannesjh/favagtk.git",
-          "tag": "v0.2.1",
-          "commit": "d46ea75d6598e750af46a1de3ac600691882b5f5"
+          "tag": "v0.2.2",
+          "commit": "1c210685ed02ad4c1083ef718c5235617672da02"
         }
       ],
       "config-opts": ["-Dprofile=release"]

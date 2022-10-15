@@ -1,4 +1,4 @@
-# This makefile helps remember the commands for local flatpak builds and subsequent local testing
+# This makefile is for building and running favagtk
 
 .PHONY: build
 build:
