@@ -34,8 +34,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/johannesjh/favagtk.git",
-          "tag": "v0.2.4",
-          "commit": "c611fbbb23f1f40df0ca1cf06c859c56d2bb7d32"
+          "tag": "v0.2.5",
+          "commit": "c8940a44d7da741ae1cb96f122768256c634fd48"
         }
       ],
       "config-opts": ["-Dprofile=release"]
