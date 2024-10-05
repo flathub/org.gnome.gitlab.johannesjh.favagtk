@@ -1,7 +1,7 @@
 {
   "app-id": "org.gnome.gitlab.johannesjh.favagtk",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "46",
+  "runtime-version": "47",
   "sdk": "org.gnome.Sdk",
   "command": "favagtk",
   "finish-args": [
@@ -34,8 +34,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/johannesjh/favagtk.git",
-          "tag": "v0.2.12",
-          "commit": "8bf725c7e83698797d3679525c7a93bac8dde6ae"
+          "tag": "v1.0.0",
+          "commit": "2be4b5bb1a547e66fdbd45daa419512636036e30"
         }
       ],
       "config-opts": ["-Dprofile=release"]
